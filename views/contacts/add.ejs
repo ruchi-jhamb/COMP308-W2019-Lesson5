@@ -1,0 +1,49 @@
+<% include ../partials/header.ejs %>
+
+<!-- Content for the Add Page -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-3 col-md-6">
+      <h1><%= title %></h1>
+
+      <form action="" class="form" method="POST">
+        <div class="form-group"></div>
+        <label for="FirstNameTextField">First Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="FirstNameTextField"
+          placeholder="Enter First Name"
+          Name="firstname"
+          required
+        />
+
+        <div class="form-group"></div>
+        <label for="LasttNameTextField">Last Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="LastNameTextField"
+          placeholder="Enter Last Name"
+          Name="lastname"
+          required
+        />
+
+        <div class="form-group"></div>
+        <label for="AgeTextField">Age</label>
+        <input
+          type="text"
+          class="form-control"
+          id="AgeTextField"
+          placeholder="Enter Age"
+          Name="age"
+          required
+        />
+      </br>
+        <button type="submit" class="btn btn-primary">Submit <i class="fa fa-arrow-circle-right"></i></button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<% include ../partials/footer.ejs %>
