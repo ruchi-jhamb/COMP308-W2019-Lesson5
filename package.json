@@ -1,0 +1,45 @@
+{
+  "name": "comp308-w2019-lesson5",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "^10.15.3",
+    "npm": "^6.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "font-awesome": "^4.7.0",
+    "http-errors": "~1.6.2",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.4.20",
+    "morgan": "~1.9.0",
+    "popper.js": "^1.14.7"
+  },
+  "description": "Express CRUD",
+  "main": "server.js",
+  "author": "Ruchi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.16.1",
+    "@types/mongoose": "^5.3.24",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^11.11.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruchi-jhamb/COMP308-W2019-Lesson5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruchi-jhamb/COMP308-W2019-Lesson5/issues"
+  },
+  "homepage": "https://github.com/ruchi-jhamb/COMP308-W2019-Lesson5#readme"
+}
